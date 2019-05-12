@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3123A4942288439F00B4531C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123A4932288439F00B4531C /* DetailViewController.swift */; };
 		31C718F922883AD5009730B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C718F822883AD5009730B1 /* AppDelegate.swift */; };
 		31C718FE22883AD5009730B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C718FC22883AD5009730B1 /* Main.storyboard */; };
 		31C7190022883AD6009730B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C718FF22883AD6009730B1 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3123A4932288439F00B4531C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		31C718F522883AD5009730B1 /* UI_Course5 (ArtCover).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI_Course5 (ArtCover).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C718F822883AD5009730B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31C718FD22883AD5009730B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				31C718F822883AD5009730B1 /* AppDelegate.swift */,
 				31C7190A22883B55009730B1 /* PreviewPage.swift */,
 				31C7190E22883CF7009730B1 /* ArtCoverCell.swift */,
+				3123A4932288439F00B4531C /* DetailViewController.swift */,
 				31C718FC22883AD5009730B1 /* Main.storyboard */,
 				31C718FF22883AD6009730B1 /* Assets.xcassets */,
 				31C7190122883AD6009730B1 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				31C718F922883AD5009730B1 /* AppDelegate.swift in Sources */,
 				31C7190F22883CF7009730B1 /* ArtCoverCell.swift in Sources */,
 				31C7190B22883B55009730B1 /* PreviewPage.swift in Sources */,
+				3123A4942288439F00B4531C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

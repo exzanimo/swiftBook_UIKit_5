@@ -55,4 +55,18 @@ class PreviewPage: UICollectionViewController {
     
         return cell
     }
+    
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowDetail"
+        {
+            if let indexPath = self.collectionView.indexPathsForSelectedItems {
+               
+                let detailsVC = segue.destination as! DetailViewController
+                detailsVC.trackTitle = imageNameArray[indexPath.count]
+            }
+        }
+        
+    }
 }
